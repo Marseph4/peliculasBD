@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;	
+
+}
+/*estilos del menu*/
+nav{
+
+	background: #000;
+}
+nav ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+}
+nav ul li{
+	float:left;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	padding: 15px 20px;
+}
+/*estilos del indice*/
+table, th,td{
+	border: 1px solid;
+	border-collapse: collapse;
+
+}
+th, td{
+	padding: 10px;
+	text-align: center;
+}
+td a{	
+	text-decoration: none;
+	color:black;
+}
+/*estilos de los formularios*/
+form{
+	width: 70%;		
+	margin: 10px 5px; 
+	border: 1px solid black;	
+	padding: 10px;
+
+}
+form>label{
+	display: block;
+}
+input, select{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.ok{	
+	width: 70%;		
+	margin: 10px 5px; 		
+	margin-top: 10px;
+	border:1px solid green;
+	color:green;
+	background:rgba(0,255,0,0.5);
+	padding: 10px;			
+}
+
+.error{
+	width: 70%;		
+	margin: 10px 5px; 
+	margin-top: 10px;	
+	border:1px solid red;
+	color:red;
+	background: rgba(255,0,0,0.5);			
+	padding: 10px;
+}
